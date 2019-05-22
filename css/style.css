@@ -1,0 +1,151 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+a:hover{
+    color: #337ab7;
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+    /* Header Start */
+header{
+    background: #3B5998;
+    color: #fff;
+}
+header a {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 800;
+	text-transform: lowercase;
+}
+
+    /* Header End */
+    /* Add area start */
+.add_area{
+    background: #FFFBE2;
+    padding: 6px 0px;
+}
+.add_area a{
+    font-size: 13px;
+    color: #91A6C4;
+}
+    /* Add area end */
+    /* section main started */
+.login_area{
+    background: #ECEFF5;
+}
+.login_area input[type="text"], .login_area input[type="password"]{
+    border: 1px solid #DDDEE2;
+    color: #8F8F8F;
+    width: 100%;
+    padding: 10px 0px 10px 15px;
+    border-radius: 5px;
+    color: #8B8B8B;
+}
+.login_area input[type="submit"] {
+	background: #3577E5;
+	color: #fff;
+	font-weight: bold;
+    font-size: 13px;
+
+}
+
+.or {
+    margin: 15px 0px;
+    position: relative;
+}
+.or::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40%;
+    height: 2px;
+    background: #CCCFD6;
+    top: 8px;
+    left: 0;
+    margin: 0 15px;
+}
+.or::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40%;
+    height: 2px;
+    background: #CCCFD6;
+    top: 8px;
+    right: 0;
+    margin: 0 15px;
+}
+.or h6{
+    color: #4C4F56;
+    font-size: 12px;
+}
+.new_account a{
+    background: #00A400;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 12px;
+}
+.new_account a:hover{
+    color: #FFF;
+}
+.by{
+    margin: 15px 0px;
+}
+.by p {
+    color: #878789;
+    font-size: 12px;
+}
+.by a{
+    color: #62708D;
+}
+.link{
+	margin-bottom: 25px;
+}
+.link a{
+    color: #91A6C4;
+    font-size: 12px;
+}
+.footer{
+    margin: 20px 0px;
+    font-size: 12px;
+}
+.footer a{
+    color: #8794AF;
+}
+    /* section main End */
